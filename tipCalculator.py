@@ -10,6 +10,7 @@ return (cost * (percentageTip / 100))
 cost = float(input("Enter cost of bill(Exclude $ sign) \n"))
 
 # Ask user for tax percentage
+percentageTax = int(input("Enter a tax percentage (Exclude % sign)\n "))
 
 
 # Ask user for tip percentage
