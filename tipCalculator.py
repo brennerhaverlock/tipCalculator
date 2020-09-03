@@ -19,3 +19,5 @@ percentageTip = int(input("Enter tip percentage as whole number  \n"))
 
 
 # Return cost multiplied by tax percentage
+costWithTax = calculateTax(cost, percentageTax)
+print("The cost with tax is: $" + str(costWithTax))
