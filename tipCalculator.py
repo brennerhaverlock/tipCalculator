@@ -15,5 +15,7 @@ percentageTax = int(input("Enter a tax percentage (Exclude % sign)\n "))
 
 # Ask user for tip percentage
 
-# Return cost multiplied by tax percentage
+percentageTip = int(input("Enter tip percentage as whole number  \n"))
 
+
+# Return cost multiplied by tax percentage
