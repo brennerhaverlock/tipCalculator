@@ -7,6 +7,8 @@ def calculateCost(cost, percentageTip):
 return (cost * (percentageTip / 100))
 # Ask user for the cost
 
+cost = float(input("Enter cost of bill(Exclude $ sign) \n"))
+
 # Ask user for tax percentage
 
 
